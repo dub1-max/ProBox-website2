@@ -52,17 +52,17 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/cm.png"
+              src="/images/logo/probox.png"
               alt="logo"
               width={40} // Change width here
-              height={8} // Change height here
+              height={10} // Change height here
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/cm.png"
+              src="/images/logo/probox.png"
               alt="logo"
               width={40} // Change width here
-              height={8} // Change height here
+              height={10} // Change height here
               className="w-full dark:hidden"
             />
           </a>
