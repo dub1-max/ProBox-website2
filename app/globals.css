@@ -22,7 +22,7 @@
 @layer base {
   body {
     @apply relative z-1 font-inter text-regular font-normal text-waterloo dark:text-manatee;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(252,252,252,1) 100%);
+    background: linear-gradient(0deg, rgba(5,0,79,1) 13%, rgba(9,9,121,0.38147759103641454) 54%, rgba(255,255,255,1) 100%);
   }
 }
 
