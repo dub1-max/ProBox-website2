@@ -149,7 +149,8 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-lightgreen-darkgreen': 'linear-gradient(90deg, rgba(4,99,6,1) 10%, rgba(168,228,145,1) 46%, rgba(148,228,143,0.20780812324929976) 92%);',
-        "green-dark":"radial-gradient(circle, hsla(123, 88.40%, 23.70%, 0.99) 0%, rgba(0,0,0,0.9389005602240896) 100%);"
+        "green-dark":"radial-gradient(circle, hsla(123, 88.40%, 23.70%, 0.99) 0%, rgba(0,0,0,0.9389005602240896) 100%);",
+        "dark-mode":"linear-gradient(0deg, rgba(6,0,112,1) 0%, rgba(6,0,112,0.5551470588235294) 56%, rgba(255,255,255,0.06214985994397759) 100%);"
       },
     },
   },
