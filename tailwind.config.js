@@ -34,8 +34,8 @@ module.exports = {
         black: "#181C31",
         blackho: "#2C3149",
         blacksection: "#3b3b3b",//gray
-        primary: "#ADFFF8",
-        primaryho: "#0063EC",
+        primary: "#8f8fdd",
+        primaryho: "#4c45cc",
         meta: "#20C5A8",
         waterloo: "#757693",
         manatee: "#999AA1",

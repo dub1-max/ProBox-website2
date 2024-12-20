@@ -46,7 +46,7 @@ const Header = () => {
     <header
       className={`fixed left-0 top-0 z-50 w-full py-5 transition-transform duration-200 ease-in-out ${
         stickyMenu ? "bg-transparent shadow-md dark:bg-transparent" : ""
-      }`}
+      }${hiddenNavbar ? "-translate-y-full" : "translate-y-0"} `}
     >{/**<header
       className={`fixed left-0 top-0 z-50 w-full py-5 transition-transform duration-200 ease-in-out ${
         stickyMenu ? "bg-transparent shadow-md dark:bg-transparent" : ""
@@ -171,7 +171,7 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <Link
               href="/support"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-black duration-300 ease-in-out hover:bg-ContactUsBtn"
+              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho "
             >
               Contact Us
             </Link>
