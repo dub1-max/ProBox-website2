@@ -44,10 +44,10 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-50 w-full py-5 transition-transform duration-200 ease-in-out ${
-        stickyMenu ? "bg-transparent shadow-md dark:bg-transparent" : ""
-      }${hiddenNavbar ? "-translate-y-full" : "translate-y-0"} `}
-    >{/**<header
+    className={`fixed left-0 top-0 z-50 w-full py-5 transition-transform duration-200 ease-in-out ${
+      stickyMenu ? "bg-transparent shadow-md dark:bg-transparent" : ""
+    } ${hiddenNavbar ? "-translate-y-full" : "translate-y-0"}`}
+  >{/**<header
       className={`fixed left-0 top-0 z-50 w-full py-5 transition-transform duration-200 ease-in-out ${
         stickyMenu ? "bg-transparent shadow-md dark:bg-transparent" : ""
       } ${hiddenNavbar ? "-translate-y-full" : "translate-y-0"}`}
