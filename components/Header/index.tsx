@@ -46,8 +46,12 @@ const Header = () => {
     <header
       className={`fixed left-0 top-0 z-50 w-full py-5 transition-transform duration-200 ease-in-out ${
         stickyMenu ? "bg-transparent shadow-md dark:bg-transparent" : ""
+      }`}
+    >{/**<header
+      className={`fixed left-0 top-0 z-50 w-full py-5 transition-transform duration-200 ease-in-out ${
+        stickyMenu ? "bg-transparent shadow-md dark:bg-transparent" : ""
       } ${hiddenNavbar ? "-translate-y-full" : "translate-y-0"}`}
-    >
+    > for non sticky navbar */}
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
